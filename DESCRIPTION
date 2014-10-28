@@ -1,8 +1,8 @@
 Package: hackR_package
-Title: What the package does (short line)
+Title: Provides misc functions (like Hmisc)
 Version: 0.1
-Authors@R: "First Last <first.last@example.com> [aut, cre]"
-Description: What the package does (paragraph)
+Authors@R: "Jason Miller <root@paloalto.io> [aut, cre]"
+Description: Provides misc functions (like Hmisc). More soon.
 Depends: R (>= 3.1.0)
-License: What license is it under?
+License: GNU GPL
 LazyData: true
