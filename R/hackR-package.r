@@ -1,5 +1,5 @@
 #' hackR.
 #'
-#' @name hackR: Assorted functions + tweaks
+#' @name hackR
 #' @docType package
 NULL
