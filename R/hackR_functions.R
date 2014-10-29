@@ -98,3 +98,14 @@ ll <- function(params) {
 obj_size <- function (x) {
   sort( sapply(ls(),function(x){format(object.size(get(x)), units = "Mb")}))
 }
+
+
+# rand_split --------------------------------------------------------------
+rand_split <- function(dataframe, seed=1337) {
+  if (!is.null(seed)) set.seed(seed)
+  index <- 1:nrow(dataframe)
+  trainindex <- sample(index, trunc(length(index)/2))
+  train      <- dataframe[trainindex, ]
+  test       <- dataframe[-trainindex, ]
+  list(ML=train,testset=test)
+}
